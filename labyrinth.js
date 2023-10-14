@@ -54,8 +54,6 @@ function moveSmiley(e) {
        // right arrow
       cx=canvas.style.left;
       cx=parseInt( cx.substring(0, cx.length-2)) ;
-      //window.screen.availHeight
-      //window.screen.availWidth
       if (cx < window.screen.availWidth-150-stepX) {
           cx=cx+stepX;
           canvas.style.left=cx+"px";
